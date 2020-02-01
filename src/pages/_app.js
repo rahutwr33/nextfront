@@ -13,7 +13,7 @@ import { PageTransition } from 'next-page-transitions'
 class _App extends App {
  
   static async getInitialProps({ Component, ctx }) {
-    const res = await fetch('http://localhost:5050/users/metas')
+    const res = await fetch('http://3.16.74.97/users/metas')
     const json = await res.json();
       let pageProps = {};
       if (Component.getInitialProps) {

@@ -2109,7 +2109,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\rahul\\Desktop\\nextstarter\\src\\pages\\_document.js";
+var _jsxFileName = "C:\\Users\\rahul\\Desktop\\nextstarter\\client\\src\\pages\\_document.js";
 
 
 
