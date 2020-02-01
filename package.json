@@ -1,11 +1,9 @@
 {
   "name": "create-next-example-app",
   "scripts": {
-    "dev": "NODE_ENV=development node ./server.js",
-    "build": "next ./src build",
-    "start": "next ./src start",
-    "deploy-staging": "NODE_ENV=staging next ./src build && NODE_ENV=staging node ./server.js",
-    "deploy-production": "NODE_ENV=production next ./src build && NODE_ENV=production node ./server.js"
+    "dev": "next start",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "@material-ui/core": "^4.1.1",
@@ -53,6 +51,7 @@
     "cross-env": "^5.1.0",
     "nodemon": "^1.12.1",
     "redux-devtools-extension": "^2.13.8",
-    "redux-logger": "^3.0.6"
+    "redux-logger": "^3.0.6",
+    "serverless-next.js": "^1.8.0"
   }
 }

@@ -4,12 +4,12 @@ const withImages = require('next-images');
 const withPlugins = require("next-compose-plugins");
 
 module.exports = {
+  target:'serverless',
   webpack: config => {
-    // Fixes npm packages that depend on `fs` module
     config.node = {
       fs: 'empty'
-    }
-
+    },
+    config.target = 'serverless'
     return config
   }
 }
