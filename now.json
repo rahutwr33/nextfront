@@ -1,0 +1,7 @@
+{
+    "routes": [
+      { "src": "/", "dest": "/index.js" },
+      { "src": "/login", "methods": ["POST"], "dest": "/login.js" },
+      { "src": "/register","methods": ["POST"], "dest": "/register.js" }
+    ]
+  }

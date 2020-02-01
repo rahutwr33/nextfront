@@ -1,22 +1,10 @@
 {
-  "./dashboard": [
+  "./noop": [
     {
-      "id": "+70X",
-      "name": "./node_modules/jss-plugin-default-unit/node_modules/jss/dist/jss.esm.js",
-      "file": "static/chunks/commons.1a4ee8d11c0a038d141b.js",
-      "publicPath": "static/chunks/commons.1a4ee8d11c0a038d141b.js"
-    },
-    {
-      "id": "EFYt",
-      "name": "./style/global.css",
-      "file": "static/chunks/styles.8fbf5f9dc0c65422f996.js",
-      "publicPath": "static/chunks/styles.8fbf5f9dc0c65422f996.js"
-    },
-    {
-      "id": "gSoM",
-      "name": "./pages/dashboard/dashboard.js",
-      "file": "static/chunks/efd3.2b5100e9f0d3e2e315cb.js",
-      "publicPath": "static/chunks/efd3.2b5100e9f0d3e2e315cb.js"
+      "id": "./node_modules/next/dist/client/noop.js",
+      "name": "./node_modules/next/dist/client/noop.js",
+      "file": "static/chunks/0.js",
+      "publicPath": "static/chunks/0.js"
     }
   ]
 }
