@@ -5,6 +5,14 @@ branches:
   only:
   - staging
   - master
+before_script:
+  - npm install
+script:
+  - npm run build-${NODE_ENV}
+before_deploy:
+  - cd $TRAVIS_BUILD_DIR
+  - sed -i '/.next/d' .gitignore
+  - git add . && git commit -m "latest build"
 deploy:
   - provider: elasticbeanstalk
     access_key_id: ${AWS_ACCESS_KEY_ID}
