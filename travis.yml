@@ -3,7 +3,6 @@ node_js:
  - "12.14"
 branches:
   only:
-  - staging
   - master
 before_script:
   - npm install
