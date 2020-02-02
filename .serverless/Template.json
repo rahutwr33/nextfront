@@ -1,5 +1,5 @@
 {
   "components": {
-    "nextApp": "C:\\Users\\rahul\\.serverless\\components\\registry\\npm\\client@0.0.1\\node_modules\\client"
+    "client": "C:\\Users\\rahul\\.serverless\\components\\registry\\npm\\serverless-next.js@1.8.0\\node_modules\\serverless-next.js"
   }
 }

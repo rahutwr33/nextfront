@@ -1,2 +1,2 @@
-nextApp:
-   component: "client"
+client:
+   component: "serverless-next.js"
