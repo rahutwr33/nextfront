@@ -2,7 +2,7 @@
   "name": "create-next-example-app",
   "scripts": {
     "dev": "next start",
-    "test": "next start",
+    "test": "npm run release && cross-env NODE_ENV=production node server.js",
     "build": "next build",
     "release": "cross-env NODE_ENV=production next build",
     "start": "npm run release && cross-env NODE_ENV=production node server.js"
