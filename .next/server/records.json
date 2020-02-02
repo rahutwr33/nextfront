@@ -5,10 +5,10 @@
       "multi private-next-pages/_app.js": 1,
       "multi private-next-pages/_document.js": 2,
       "multi private-next-pages/dashboard/dashboard.js": 3,
-      "multi private-next-pages/dashboard/index.js": 4,
-      "multi private-next-pages/forgot-password/index.js": 5,
-      "multi private-next-pages/login/index.js": 6,
-      "multi private-next-pages/register/index.js": 7,
+      "multi private-next-pages/forgot-password/index.js": 4,
+      "multi private-next-pages/dashboard/index.js": 5,
+      "multi private-next-pages/register/index.js": 6,
+      "multi private-next-pages/login/index.js": 7,
       "multi next/dist/pages/_error": 8
     },
     "usedIds": {

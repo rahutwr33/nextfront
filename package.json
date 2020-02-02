@@ -4,7 +4,7 @@
     "dev": "next start",
     "build": "next build",
     "release": "cross-env NODE_ENV=production next build",
-    "start": "cross-env NODE_ENV=production node server.js"
+    "start": "npm run release && cross-env NODE_ENV=production node server.js"
   },
   "main": "server.js",
   "dependencies": {

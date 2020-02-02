@@ -12,19 +12,6 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/react-toastify/dist/ReactToastify.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {},
-        "bySource": {},
-        "usedIds": []
-      }
-    }
-  ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/react-responsive-carousel/lib/styles/carousel.min.css": [
     {
       "modules": {
@@ -38,7 +25,7 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/bootstrap-css-only/css/bootstrap.min.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/react-toastify/dist/ReactToastify.css": [
     {
       "modules": {
         "byIdentifier": {},
@@ -52,6 +39,19 @@
     }
   ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/mdbreact/dist/css/mdb.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--7-1!node_modules/bootstrap-css-only/css/bootstrap.min.css": [
     {
       "modules": {
         "byIdentifier": {},

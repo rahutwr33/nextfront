@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -248,6 +248,14 @@ function flush() {
   styleSheetRegistry.flush();
   return cssRules;
 }
+
+/***/ }),
+
+/***/ 4:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("CmmS");
+
 
 /***/ }),
 
@@ -472,14 +480,6 @@ function mapStateToProps(state) {
 
 /***/ }),
 
-/***/ 6:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("yfTL");
-
-
-/***/ }),
-
 /***/ "9Jkg":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -538,6 +538,241 @@ function _assertThisInitialized(self) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("/+oN");
+
+/***/ }),
+
+/***/ "CmmS":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("pLtp");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("0iUn");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("sLSF");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("MI3g");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("a7VT");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("AT/M");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("Tit0");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("vYYK");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("cDcd");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__("Wh1t");
+/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__("qt1I");
+/* harmony import */ var _material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__("9Pu4");
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__("KKbo");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__("YFqc");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__("5Yp1");
+/* harmony import */ var _utils_validators__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__("MZZ8");
+/* harmony import */ var _style_colors__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__("VraU");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var styles = function styles(theme) {
+  return {
+    loginContainer: {
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      flexWrap: "wrap",
+      margin: "20px",
+      fontFamily: "sans-serif",
+      textAlign: "center"
+    },
+    container: {
+      display: "flex",
+      flexWrap: "wrap",
+      marginTop: '25px',
+      marginBottom: '25px'
+    },
+    textField: {
+      width: "100%"
+    },
+    formControl: {
+      width: "100%",
+      margin: "10px 0px"
+    },
+    loginHeader: {
+      color: "#fff",
+      fontSize: "34px",
+      fontWeight: "bold",
+      padding: "50px 0",
+      textAlign: "center",
+      backgroundColor: _style_colors__WEBPACK_IMPORTED_MODULE_16__[/* default */ "a"].lightBlue,
+      margin: "-20px"
+    },
+    loginHead: {
+      display: "block",
+      backgroundColor: _style_colors__WEBPACK_IMPORTED_MODULE_16__[/* default */ "a"].lightBlue,
+      borderRadius: "50%",
+      color: "#FFF",
+      width: "80px",
+      height: "80px",
+      fontSize: "50px",
+      margin: "0 auto",
+      border: "6px solid #ddd"
+    },
+    loginButton: {
+      width: "100%",
+      color: "#FFF",
+      backgroundColor: _style_colors__WEBPACK_IMPORTED_MODULE_16__[/* default */ "a"].lightBlue,
+      "&:hover": {
+        backgroundColor: "#299bf1"
+      }
+    },
+    inputLabelFocused: {
+      color: _style_colors__WEBPACK_IMPORTED_MODULE_16__[/* default */ "a"].lightBlue
+    },
+    inputInkbar: {
+      "&:after": {
+        backgroundColor: _style_colors__WEBPACK_IMPORTED_MODULE_16__[/* default */ "a"].lightBlue
+      }
+    },
+    inputInkbarError: {
+      "&:after": {
+        backgroundColor: _style_colors__WEBPACK_IMPORTED_MODULE_16__[/* default */ "a"].red
+      }
+    }
+  };
+};
+
+var ForgotPassword =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(ForgotPassword, _React$Component);
+
+  function ForgotPassword() {
+    var _getPrototypeOf2;
+
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(this, ForgotPassword);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(ForgotPassword)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(_this), "state", {
+      email: "",
+      password: "",
+      errors: {}
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(_this), "login", function () {
+      var isValid = _this.validate();
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(_this), "validate", function () {
+      var errors = {};
+
+      if (_utils_validators__WEBPACK_IMPORTED_MODULE_15__[/* default */ "a"].isEmptyString(_this.state.email)) {
+        errors.email = "Campo obbligatorio";
+      } else if (!_utils_validators__WEBPACK_IMPORTED_MODULE_15__[/* default */ "a"].isValidEmail(_this.state.email)) {
+        errors.email = "Invalid email";
+      }
+
+      if (_utils_validators__WEBPACK_IMPORTED_MODULE_15__[/* default */ "a"].isEmptyString(_this.state.password)) {
+        errors.password = "Invalid password";
+      }
+
+      _this.setState({
+        errors: errors
+      });
+
+      return _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_0___default()(errors).length === 0;
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(_this), "handleChange", function (event, fieldName) {
+      var _this$setState;
+
+      var errors = _this.state.errors;
+      delete errors[fieldName];
+
+      _this.setState((_this$setState = {}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"])(_this$setState, fieldName, event.target.value), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"])(_this$setState, "errors", errors), _this$setState));
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(_this), "handleChangeEmail", function (e) {
+      _this.handleChange(e, "email");
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(_this), "handleChangePassword", function (e) {
+      _this.handleChange(e, "password");
+    });
+
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])(ForgotPassword, [{
+    key: "render",
+    value: function render() {
+      var classes = this.props.classes;
+      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_14__[/* default */ "a"], {
+        title: "Forgot Password",
+        description: "Reset Password there"
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: classes.loginContainer
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_10___default.a, {
+        style: {
+          padding: "20px",
+          maxWidth: "400px",
+          backgroundColor: '#dddddd'
+        },
+        elevation: 0
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: classes.loginHeader
+      }, "itTaxi Resellers"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("form", {
+        className: classes.container
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_12__["FormControl"], {
+        className: classes.formControl
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_12__["InputLabel"], {
+        htmlFor: "email"
+      }, "Email"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_12__["Input"], {
+        id: "email",
+        type: "email",
+        label: "Email",
+        placeholder: "Email",
+        onChange: this.handleChangeEmail
+      }))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_9___default.a, {
+        raised: "true",
+        className: classes.loginButton,
+        onClick: this.login
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("i", {
+        className: "fa fa-lock"
+      }), "\xA0\xA0\xA0Reset PasswordZ"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_13___default.a, {
+        href: "/login"
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+        href: "/register"
+      }, "Login"))))));
+    }
+  }]);
+
+  return ForgotPassword;
+}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_11__["withStyles"])(styles)(ForgotPassword));
 
 /***/ }),
 
@@ -2396,393 +2631,6 @@ module.exports = require("core-js/library/fn/symbol");
 /***/ (function(module, exports) {
 
 module.exports = require("next/head");
-
-/***/ }),
-
-/***/ "yfTL":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js
-var objectSpread = __webpack_require__("zrwo");
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime-corejs2/regenerator/index.js
-var regenerator = __webpack_require__("ln6h");
-var regenerator_default = /*#__PURE__*/__webpack_require__.n(regenerator);
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js
-var asyncToGenerator = __webpack_require__("O40h");
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js
-var classCallCheck = __webpack_require__("0iUn");
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js
-var createClass = __webpack_require__("sLSF");
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js + 1 modules
-var possibleConstructorReturn = __webpack_require__("MI3g");
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js
-var getPrototypeOf = __webpack_require__("a7VT");
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js
-var assertThisInitialized = __webpack_require__("AT/M");
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js + 1 modules
-var inherits = __webpack_require__("Tit0");
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js
-var defineProperty = __webpack_require__("vYYK");
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__("cDcd");
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// EXTERNAL MODULE: external "@material-ui/core/Button"
-var Button_ = __webpack_require__("Wh1t");
-var Button_default = /*#__PURE__*/__webpack_require__.n(Button_);
-
-// EXTERNAL MODULE: external "@material-ui/core/Paper"
-var Paper_ = __webpack_require__("qt1I");
-var Paper_default = /*#__PURE__*/__webpack_require__.n(Paper_);
-
-// EXTERNAL MODULE: external "@material-ui/core/styles"
-var styles_ = __webpack_require__("9Pu4");
-
-// EXTERNAL MODULE: external "@material-ui/core"
-var core_ = __webpack_require__("KKbo");
-
-// EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__("YFqc");
-var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
-
-// EXTERNAL MODULE: ./components/Layout.js + 1 modules
-var Layout = __webpack_require__("5Yp1");
-
-// EXTERNAL MODULE: ./utils/validators.js
-var validators = __webpack_require__("MZZ8");
-
-// EXTERNAL MODULE: external "next/router"
-var router_ = __webpack_require__("4Q3z");
-var router_default = /*#__PURE__*/__webpack_require__.n(router_);
-
-// EXTERNAL MODULE: external "react-redux"
-var external_react_redux_ = __webpack_require__("h74D");
-
-// EXTERNAL MODULE: ./store/actions/auth.js + 2 modules
-var auth = __webpack_require__("N76A");
-
-// EXTERNAL MODULE: external "react-toastify"
-var external_react_toastify_ = __webpack_require__("oAEb");
-
-// EXTERNAL MODULE: external "js-cookie"
-var external_js_cookie_ = __webpack_require__("vmXh");
-var external_js_cookie_default = /*#__PURE__*/__webpack_require__.n(external_js_cookie_);
-
-// CONCATENATED MODULE: ./authmiddleware/index.js
-
-
-
-
-
-
-
-
-
-var authmiddleware_Auth =
-/*#__PURE__*/
-function (_Component) {
-  Object(inherits["a" /* default */])(Auth, _Component);
-
-  function Auth(props) {
-    Object(classCallCheck["a" /* default */])(this, Auth);
-
-    return Object(possibleConstructorReturn["a" /* default */])(this, Object(getPrototypeOf["a" /* default */])(Auth).call(this, props));
-  }
-
-  Object(createClass["a" /* default */])(Auth, [{
-    key: "render",
-    value: function render() {
-      return external_react_default.a.createElement("div", null, this.props.children);
-    }
-  }]);
-
-  return Auth;
-}(external_react_["Component"]);
-
-Object(defineProperty["a" /* default */])(authmiddleware_Auth, "getDerivedStateFromProps", function (props, state) {
-  console.log(props);
-
-  if (props && !props.isloggedin) {// Router.push('/')
-    // props.router.push('/')
-  }
-
-  return null;
-});
-
-/* harmony default export */ var authmiddleware = (authmiddleware_Auth);
-// EXTERNAL MODULE: ./style/colors.js
-var colors = __webpack_require__("VraU");
-
-// CONCATENATED MODULE: ./pages/login/index.js
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var login_styles = function styles(theme) {
-  return {
-    loginContainer: {
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      flexWrap: "wrap",
-      margin: "20px",
-      fontFamily: "sans-serif",
-      textAlign: "center"
-    },
-    container: {
-      display: "flex",
-      flexWrap: "wrap",
-      marginTop: '25px',
-      marginBottom: '25px'
-    },
-    textField: {
-      width: "100%"
-    },
-    formControl: {
-      width: "100%",
-      margin: "10px 0px"
-    },
-    loginHeader: {
-      color: "#fff",
-      fontSize: "34px",
-      fontWeight: "bold",
-      padding: "50px 0",
-      textAlign: "center",
-      backgroundColor: colors["a" /* default */].lightBlue,
-      margin: "-20px"
-    },
-    loginHead: {
-      display: "block",
-      backgroundColor: colors["a" /* default */].lightBlue,
-      borderRadius: "50%",
-      color: "#FFF",
-      width: "80px",
-      height: "80px",
-      fontSize: "50px",
-      margin: "0 auto",
-      border: "6px solid #ddd"
-    },
-    loginButton: {
-      width: "100%",
-      color: "#FFF",
-      backgroundColor: colors["a" /* default */].lightBlue,
-      "&:hover": {
-        backgroundColor: "#299bf1"
-      }
-    },
-    inputLabelFocused: {
-      color: colors["a" /* default */].lightBlue
-    },
-    inputInkbar: {
-      "&:after": {
-        backgroundColor: colors["a" /* default */].lightBlue
-      }
-    },
-    inputInkbarError: {
-      "&:after": {
-        backgroundColor: colors["a" /* default */].red
-      }
-    }
-  };
-};
-
-var login_Login =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(inherits["a" /* default */])(Login, _React$Component);
-
-  function Login(props) {
-    var _this;
-
-    Object(classCallCheck["a" /* default */])(this, Login);
-
-    _this = Object(possibleConstructorReturn["a" /* default */])(this, Object(getPrototypeOf["a" /* default */])(Login).call(this, props));
-
-    Object(defineProperty["a" /* default */])(Object(assertThisInitialized["a" /* default */])(_this), "getInitialProps",
-    /*#__PURE__*/
-    function () {
-      var _ref2 = Object(asyncToGenerator["a" /* default */])(
-      /*#__PURE__*/
-      regenerator_default.a.mark(function _callee(_ref) {
-        var Component, ctx, pageProps;
-        return regenerator_default.a.wrap(function _callee$(_context) {
-          while (1) {
-            switch (_context.prev = _context.next) {
-              case 0:
-                Component = _ref.Component, ctx = _ref.ctx;
-                // await handleAuthSSR(ctx)
-                pageProps = {};
-
-                if (!Component.getInitialProps) {
-                  _context.next = 6;
-                  break;
-                }
-
-                _context.next = 5;
-                return Component.getInitialProps(ctx);
-
-              case 5:
-                pageProps = _context.sent;
-
-              case 6:
-                return _context.abrupt("return", {
-                  pageProps: pageProps
-                });
-
-              case 7:
-              case "end":
-                return _context.stop();
-            }
-          }
-        }, _callee);
-      }));
-
-      return function (_x) {
-        return _ref2.apply(this, arguments);
-      };
-    }());
-
-    Object(defineProperty["a" /* default */])(Object(assertThisInitialized["a" /* default */])(_this), "_login", function () {
-      _this.props.loginUser(_this.state).then(function (res) {
-        if (!res['success']) {
-          Object(external_react_toastify_["toast"])(res['message']);
-        } else {
-          external_js_cookie_default.a.set('token', res['token']);
-          Object(external_react_toastify_["toast"])(res['message']);
-          router_default.a.push('/dashboard');
-        }
-      });
-    });
-
-    _this.state = {
-      email: "",
-      password: "",
-      errors: {}
-    };
-    return _this;
-  }
-
-  Object(createClass["a" /* default */])(Login, [{
-    key: "render",
-    value: function render() {
-      var _this2 = this;
-
-      var classes = this.props.classes;
-      console.log("3333333", this.props);
-      return external_react_default.a.createElement(Layout["a" /* default */], {
-        title: "Login"
-      }, external_react_default.a.createElement("div", {
-        className: classes.loginContainer
-      }, external_react_default.a.createElement(Paper_default.a, {
-        style: {
-          padding: "20px",
-          maxWidth: "400px",
-          backgroundColor: '#dddddd'
-        },
-        elevation: 0
-      }, external_react_default.a.createElement("div", {
-        className: classes.loginHeader
-      }, "itTaxi Resellers"), external_react_default.a.createElement("form", {
-        className: classes.container
-      }, external_react_default.a.createElement(core_["FormControl"], {
-        className: classes.formControl
-      }, external_react_default.a.createElement(core_["InputLabel"], {
-        htmlFor: "email"
-      }, "Email"), external_react_default.a.createElement(core_["Input"], {
-        id: "email",
-        type: "email",
-        label: "Email",
-        placeholder: "Email",
-        onChange: function onChange(e) {
-          return _this2.setState({
-            email: e.target.value
-          });
-        }
-      })), external_react_default.a.createElement(core_["FormControl"], {
-        className: classes.formControl,
-        error: this.state.errors.password != null
-      }, external_react_default.a.createElement(core_["InputLabel"], {
-        htmlFor: "password"
-      }, "Password"), external_react_default.a.createElement(core_["Input"], {
-        id: "password",
-        type: "password",
-        label: "Password",
-        onChange: function onChange(e) {
-          return _this2.setState({
-            password: e.target.value
-          });
-        },
-        placeholder: "Password",
-        className: classes.inputInkbar
-      }), this.state.errors.email && external_react_default.a.createElement(core_["FormHelperText"], {
-        id: "password-error-text"
-      }, this.state.errors.password))), external_react_default.a.createElement(Button_default.a, {
-        onClick: function onClick() {
-          return _this2._login();
-        },
-        raised: "true",
-        className: classes.loginButton
-      }, external_react_default.a.createElement("i", {
-        className: "fa fa-lock"
-      }), "\xA0\xA0\xA0Authentication"), external_react_default.a.createElement("br", null), external_react_default.a.createElement("br", null), external_react_default.a.createElement("div", null, "Not yet account?", external_react_default.a.createElement(link_default.a, {
-        href: "/register"
-      }, external_react_default.a.createElement("a", {
-        href: "/register"
-      }, " Register"))), external_react_default.a.createElement("div", null, external_react_default.a.createElement(link_default.a, {
-        href: "/forgot-password"
-      }, external_react_default.a.createElement("a", {
-        href: "/register"
-      }, "Forgot Password"))))));
-    }
-  }]);
-
-  return Login;
-}(external_react_default.a.Component);
-
-function mapStateToProps(state) {
-  var _state$auth = state.auth,
-      login = _state$auth.login,
-      isloggedin = _state$auth.isloggedin;
-  return Object(objectSpread["a" /* default */])({}, login, isloggedin);
-}
-
-/* harmony default export */ var pages_login = __webpack_exports__["default"] = (Object(external_react_redux_["connect"])(mapStateToProps, auth)(Object(styles_["withStyles"])(login_styles)(login_Login)));
 
 /***/ }),
 
