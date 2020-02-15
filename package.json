@@ -49,7 +49,7 @@
     "redux-persist": "^5.10.0",
     "redux-thunk": "^2.2.0",
     "styled-components": "^3.2.6",
-    "yarn": "^1.21.1"
+    "yarn": "^1.22.0"
   },
   "devDependencies": {
     "cross-env": "^5.1.0",
