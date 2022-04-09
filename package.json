@@ -27,7 +27,7 @@
     "jss-vendor-prefixer": "^7.0.0",
     "jwt-decode": "^2.2.0",
     "mdbreact": "^4.16.0",
-    "moment": "^2.19.1",
+    "moment": "^2.29.2",
     "next": "^8.1.0",
     "next-compose-plugins": "^2.2.0",
     "next-fonts": "^0.17.0",
